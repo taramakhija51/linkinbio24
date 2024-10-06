@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <title>link-in-bio</title>
 <style>
@@ -10,19 +13,75 @@ body {
     color: black;
     font-family: sudestada, sans-serif;
     font-style: normal;
-    font-weight: 400;;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-items: center;
+    
   }
 }
 
 .header {
-  font-size: 200;
+  display: flex;
+  padding-top: 35px;
+  font-size: 64px;
   justify-content: center;
-  align-items: center;
 }
+
+.block{
+  margin-top: 40px;
+}
+.project_heading {
+  
+  font-family : 'Avenir Heavy' ; 
+  font-weight: bold;
+  font-size : 20px">
+  text-align: left;
+}
+
+.project_desc {
+  font-family: "Avenir Light" ;
+  font-size: 16px;
+  text-align: left;
+}
+
+.project_heading_right {
+  font-family : 'Avenir Heavy' ; 
+  font-weight: bold;
+  font-size : 20px"
+  display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-items: right;
+    text-align: left;
+}
+
+.project_desc_right {
+  font-family: "Avenir Light" ;
+  font-size: 16px;
+  display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-items: right;
+    text-align: left;
+}
+
 </style> 
 </head>
 <body>
-  <h1><div>media i'm consuming!</div></h1>
-  <div class="header">media i'm consuming!</div>
+  <div class="header">modeling</div>
+<div class="block">
+  <div class="project_heading">Accessible Playground</div>
+  <div class="project_desc">3D render using Rhino</div>
+</div>
+
+<div class="block">
+  <div class="project_heading_right">Marquette Park Community Center</div>
+  <div class="project_desc_right">Architectural plans and laser-cut model using Rhino, Illustrator</div>
+</div>
+
+<div class="block">
+  <div class="project_heading">Modern Lounger</div>
+  <div class="project_desc">3D render using Rhino, Blender</div>
+</div>
+
 </body>
 </html>
