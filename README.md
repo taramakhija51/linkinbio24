@@ -1,3 +1,2 @@
-# static-html-template
-
-Use this template to create static HTML websites and deploy them on Render.
+The correct code is in link-in-bio-correct.
+While this isn't a traditional link-in-bio site, it contains mainly the same requirements. I wanted to see if it would be possible for me to recreate the format of a page I had in my portfolio website through coding the entire thing from scratch. The images are still clickable (like buttons), and it features social icons on the bottom. There is no profile photo, but that would be similar code to upload as required by the image buttons I already have up. I hope that's okay!
